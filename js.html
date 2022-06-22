@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>
+JavaScript
+</title>
+</head>
+<body>
+<script>
+/*let s =`hello world`;
+let name = "John";
+let fname = s +" "+name;
+document.write(fname+"<br>");
+let greeting = `Hello ${name}.`;
+document.write(greeting);
+person = {
+	firstname:"Sam",
+	lastname:"Smith",
+	age:20,
+	job:"Engineer",
+	salary:50000,
+	sibblings:{brother:"Shawn", sister:"Nicky"},
+	fullname: function() {
+		return "Full name is "+this.firstname+" "+this.lastname;
+	},
+	bonus: function () {
+		return this.salary * 10/100;
+	},
+	total: function () {
+		return this.salary+this.bonus();
+	}
+}
+
+document.write(person.firstname,"<br>");
+document.write(person["lastname","job"],"<br>");
+document.write(person.sibblings.sister,"<br>");
+document.write(person["sibblings"][`sister`],"<br>");
+document.write(person.fullname(),"<br>");
+document.write(person.bonus(),"<br>");
+document.write(person.total(),"<br>");
+var emp = new Object();
+emp.id = "001";
+emp.name = "John"
+emp.salary = 50000;
+document.write(emp.id+" "+emp.name+" "+emp.salary);
+function emp(id,name,salary){
+	this.id = id;
+	this.name = name;
+	this.salary = salary;
+}
+let e = new emp(103,"John",30000);
+let b = new emp(101,"Jonas",50000);
+document.write(e.id+" "+e.name+" "+e.salary+"<br>");
+document.write(b.id+" "+b.name+" "+b.salary+"<br>");
+console.log(emp);
+console.log(e);
+console.log(b);
+
+let p1 = Object.create({name:"Hill", age:27});
+document.write(p1.name);
+console.log(p1);
+
+person = {fname:"Jhon", lname:"Dos", age:25};
+let text = "";
+//for (let x in person) {
+	//text += person[x]+" "}
+for (let x in person) {
+	text += x +" "
+}
+document.write(text);*/
+
+var emp = ["Sali","Vimal","Rocky",34,23,6768.001];
+for(let i=0; i<emp.length; i++) {
+	document.write(emp[i]+"<br>");
+}
+var p1 = new Array();
+p1[0]="Aaron";
+p1[1]="Varun";
+p1[2]= 21;
+for(let x in p1) {
+	document.write(p1[x]+"<br>");
+}
+var num = [12,23,35,56,7880,65,34];
+let number=prompt("Enter the number");
+for (let i=0;i<num.length; i++) {
+	if (num[i]==number)
+		document.write(i);
+}
+var a = [1,2,3];
+a.reverse();
+alert(a);
+</script>
+</body>
+</html>
